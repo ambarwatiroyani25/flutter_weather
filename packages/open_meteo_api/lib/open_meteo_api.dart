@@ -1,5 +1,5 @@
-/// A Calculator.
-class Calculator {
-  /// Returns [value] plus 1.
-  int addOne(int value) => value + 1;
-}
+library open_meteo_api;
+
+export 'package:open_meteo_api/src/open_meteo_api_client.dart';
+export 'package:open_meteo_api/src/models/location.dart';
+export 'package:open_meteo_api/src/models/weather.dart';
