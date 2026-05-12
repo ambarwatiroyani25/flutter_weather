@@ -1,3 +1,5 @@
+export 'src/models/models.dart';
+export 'src/weather_repository.dart';
 /// A Calculator.
 class Calculator {
   /// Returns [value] plus 1.
